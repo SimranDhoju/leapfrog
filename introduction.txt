@@ -1,3 +1,5 @@
 Name: Simran Dhoju
 College: HCOE
 Hobby: Travelling
+Age: 24
+Address: Butwal
