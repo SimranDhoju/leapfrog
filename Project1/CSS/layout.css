@@ -1,0 +1,44 @@
+
+  .navbar  a:hover {
+      background-image: url("../images/btn.png");
+      background-repeat: no-repeat;
+      
+    }
+    
+  .navbar a.active {
+      background-image: url("../images/btn.png");
+      background-repeat: no-repeat;
+    }
+  
+  
+  .header-buttom{
+    height: 80px;
+    background: #ececec;
+  }
+  
+  .header-bottom-content{
+   padding: 30px;
+  
+  }
+  .triangle{
+   margin: 20px;;
+  }
+  
+  .content{
+    padding: 30px;
+    background: white;
+    padding-top: 55px;
+    
+  }
+  
+  .content>h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: red;
+  }
+
+.body-wrapper {
+    background-color:#f3f3f3;
+    
+}
+
