@@ -1,88 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel ="stylesheet" type="text/css" href="CSS/reset.css">
-    <link rel ="stylesheet" type="text/css" href="CSS/layout.css">
-    <link rel ="stylesheet" type="text/css" href="CSS/style.css">
-    <title>Document</title>
+    <title>Design Project1 </title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-   
-   <div class="wrapper">
-         <div class="whole-wrapper">
-             <div class="header-wrapper">
-                 <div class="header-top">
-                     <div class="content-wrapper navbar-wrapper">
-                         <div class="header">
-                         <div class="col-left">
-                             <div class="logo">
-                                 <a href="index.html"><img src="images/logo.png" alt=""></a>
-                             </div>
-                         </div>
-                         <div class="col-right">
-                             <div class="navbar">
-                                     <a href="#home">Home</a>
-                                     <a class="active" href="#about">About</a>
-                                     <a href="#service">Service</a>
-                                     <a href="#">Portfolio</a>
-                                     <a href="#blog">Blog</a>
-                                     <a href="#feature">Feature</a>
-                                     <a href="#">Contact</a>
-                                     <img src="images/searchicon.png" alt="">
-                             </div>
-                         </div>
-                     </div>
-                     </div>
-                 </div>
-                 <div class=" header-buttom">
-                     <div class="content-wrapper">
-                         <div class="header-bottom-content">
-                             <div class="col-left">About us</div>
-                             <div class="col-right">Home / About us</div>
-                         </div>
-                         <div><img class="triangle" src="images/triangleicon.png" alt=""></div>
-                     </div>
-                 </div>
-                  
-             </div>
-             
-         </div>
-         <div class="content-wrapper">
-                 <div class="content">
-                     <h2>Donec faucibus ultrices congue</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                         Nisi explicabo reiciendis soluta eligendi debitis quo nam deserunt
-                          quae sunt nostrum voluptas ea velit nihil aspernatur, facilis sit eos,
-                            quae sunt nostrum voluptas ea velit nihil aspernatur, facilis sit eosfacilis sit eos,
-                             ratione saepe!</p>
-                     <div class="3box">
-                             <div class="header">
-                                     <div class="col-left">
-                                         <div class="logo">
-                                             <div></div>
-                                         </div>
-                                     </div>
-                                     <div class="col-right">
-                                         <div></div>
-                                     </div>
-                                 </div>    
-                     </div>
-               </div>
-               
-      </div>
-         
-     </div>
-        
-     
-    
+    <div class="whole-wrapper">
+        <div class="header-wrapper clearfix">
+            <div class="header-top-wrapper">
+                <div class="header-top-container">
+
+                    <div class="logo-wrapper">
+                        <img src="images/tollens-logo.png" alt="Tollens-logo">
+                    </div>
+
+                    <div class="header-navbar clearfix">
+                        <ul>
+                            <li>
+                                <a href="#" class="nav-item">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-item">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-item">SERVICES</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-item">PORTFOLIO</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-item">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-item">FEATURES</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-item">CONTACT</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/search-logo.png" class="search-logo"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="header-bottom-wrapper">
+                <div class="header-bottom-container">
+                    <div class="about-header">
+                        <h3>ABOUT US</h3>
+                    </div>
+
+                    <div class="left-navbar">
+                        <ul>
+                            <li class="home"><a href="#">Home</a></li>
+                            <li>/</li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-bottom-image">
+                <div class="triangle-image clearfix">
+                    <img src="images/bottom-header.png" alt="bottom-heater-image">
+                </div>
+            </div>
+
+        </div>
+        <!-- Body content -->
+        <div class="body-wrapper clearfix">
+            <div class="top-body-wrapper">
+                <div class="top-body-container">
+                    <h2 class="super">Donec faucibus ultrices congue</h2>
+                    <p>
+                        Maecenas eget turpis turpis. Nunc vel metus augue. Aenean euismod cursus ligula edet dapibus. Praesent vel erat in tortot placerat dignissim.Duis dapibus aliquam mi,
+                        eget euismod sem scelerisque ut.Vivamus at elit quis urna adipiscing iaculis.Cutabiltur vitae in neque dictum blandit.
+                    </p>
+
+                    <div class="col3-left clearfix">
+                        <div class="left-container">
+                            <h2>Why Choose us?</h2>
+                            <ul>
+                                <li class="arrow"><img src="/images/arrow.png">Quisque at massa ipsum</li>
+                                <li class="arrow"><img src="/images/arrow.png">Maecenas a lorem augue, egestas</li>
+                                <li class="arrow"><img src="/images/arrow.png">Cras vitae felis at lacus eleifend</li>
+                                <li class="arrow"><img src="/images/arrow.png">Etiam auctor diam pellentesque</li>
+                                <li class="arrow"><img src="/images/arrow.png">Nulla ac massa at dolor</li>
+                                <li class="arrow"><img src="/images/arrow.png">Condimentum eleifend vitae vitae</li>
+                            </ul>
+                        </div>
+
+                        <div class="right-container ">
+                            <div class="middle">
+                                <p>
+                                    Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <a href="#" class="red">vehicula mattis</a>. Nulla ac massa at dolor condimentum eleifend vitae vitae urna.
+                                </p>
+                                <ul>
+                                    <li><img src="images/50.png" alt=""></li>
+                                    <li><img src="images/70.png" alt=""></li>
+                                    <li><img src="images/80.png" alt=""></li>
+                                    <li><img src="images/100.png" alt=""></li>
+                                </ul>
+                                <ul>
+                                    <li>SUSPENDISSE</li>
+                                    <li>MAECENAS</li>
+                                    <li>ALIQUAM</li>
+                                    <li>HABITASSE</li>
+                                </ul>
+                            </div>
+                            <div class="col3-inner-right">
+                                <h2 class="bold">What Client's Say?</h2>
+                                <p class="narrat">
+                                    Curanitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehiculas mattis. Nulla ac massa at dolor cndimentum
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="middle-body-wrapper">
+                    <div class="our-team-wrapper">
+                        <div class="our-team-title">
+                            <h1>Our Team</h1>
+                        </div>
+
+                        <div class="our-team-content">
+
+                            
+                            <div class="block">
+
+                                <!-- back box -->
+                                <div class="back-box">
+
+                                </div>
+                                <!-- front box -->
+                                <div class="front-box">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="/images/fb-logo.png" alt="fb"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/twitter-logo.png" alt="twitter"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/google-logo.png" alt="google"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/linkedin-logo.png" alt="linkedin"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- name box -->
+                                <div class="user-name-box">
+                                    <a href="#">John Doe</a>
+                                </div>
+                            </div>
+
+                            <div class="block">
+                                <!-- back box -->
+                                <div class="back-box">
+
+                                </div>
+
+                                <!-- front box -->
+                                <div class="front-box">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="/images/fb-logo.png" alt="fb"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/twitter-logo.png" alt="twitter"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/google-logo.png" alt="google"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/linkedin-logo.png" alt="linkedin"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <!-- name box -->
+                                <div class="user-name-box">
+                                    <a href="#">John Doe</a>
+                                </div>
+                            </div>
+
+                            <div class="block">
+                                <!-- back box -->
+                                <div class="back-box">
+
+                                </div>
+
+                                <!-- front box -->
+                                <div class="front-box">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="/images/fb-logo.png" alt="fb"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/twitter-logo.png" alt="twitter"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/google-logo.png" alt="google"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/linkedin-logo.png" alt="linkedin"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <!-- name box -->
+                                <div class="user-name-box">
+                                    <a href="#">John Doe</a>
+                                </div>
+                            </div>
+
+                            <div class="block">
+                                <!-- back box -->
+                                <div class="back-box">
+
+                                </div>
+
+                                <!-- front box -->
+                                <div class="front-box">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="/images/fb-logo.png" alt="fb"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/twitter-logo.png" alt="twitter"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/google-logo.png" alt="google"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="/images/linkedin-logo.png" alt="linkedin"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <!-- name box -->
+                                <div class="user-name-box">
+                                    <a href="#">John Doe</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="best-solution">
+                <div class="best-solution-container">
+                    <h1 class="solution-heading">Best Solution is the Simplest IDEA!</h1>
+                    <p>
+                        Capacitance cascading integer reflective interface data development high bus cache dithering transporder.
+                        <span>Curabitur vitae velit in neque dictum blandit.<br/> Proin in iaculis neque. Pellentesque habitant morbi tristique sencetus et netus et malesuda fames ac turpis egestas. </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="happy-clients">
+                <div class="happy-clients-container">
+                    <div class="client-header">
+                        <h3>Our Happy Clients</h3>
+                    </div>
+                    <div class="hr-line"> <img src="/images/line.png" alt="line"> </div>
+                    <div class="button">
+                        <div class="grey-btn"> </div>
+                        <div class="red-btn"> </div>
+                    </div>
+                    <div class="button">
+                        <div class="grey-btn"> </div>
+                        <div class="red-btn"> </div>
+                    </div>
+
+                    
+
+
+                    <div class="clients-list">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/jquery.png"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/jquery.png"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/jquery.png"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/jquery.png"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/jquery.png"></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        <div class ="footer-wrapper clearfix">
+            <div class="footer-content-wrapper">
+                <div class="footer-top-content clearfix">
+                        <div class="footer-tollens">
+                                <div class="logo-wrapper">
+                                
+                                    <img src="images/tollens-logo.png" alt="Tollens-logo">
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.enean commodo ligula eget dolor.Aenean commodo ligula eget dolor.enean commodo ligula eget dolor.
+                                </p>
+                                <ul>
+                                    <li> Phone : <span>182 2568 999</span> </li>
+                                    <li> E-mail : <span>info@tollens.info</span> </li>
+                                </ul>
+                            </div>   
+                
+                <div class="footer-middle-box clearfix">
+                    
+                        <div class="list">
+                                <h2 class="dark">Company</h2>
+                                <ul>
+                                    <li class="white-arrow"> <a href="#">About </a> </li>
+                                    <li class="white-arrow"> <a href="#">FAQ </a> </li>
+                                    <li class="white-arrow"> <a href="#">Contact </a> </li>
+                                    <li class="white-arrow"> <a href="#">Terms </a> </li>
+                                    <li class="white-arrow"> <a href="#">Privacy </a> </li>
+                                    <li class="white-arrow"> <a href="#">Testimonials </a> </li>
+                                </ul>
+                        </div>
+                    
+                </div>
+                <div class="footer-middle-box">
+                        
+                            <div class="list">
+                                <h2 class="dark">Community</h2>
+                                <ul>
+                                    <li class="white-arrow"> <a href="#">Blog </a> </li>
+                                    <li class="white-arrow"> <a href="#">Forum </a> </li>
+                                    <li class="white-arrow"> <a href="#">Support </a> </li>
+                                    <li class="white-arrow"> <a href="#">NewsLetter </a> </li>
+                                    
+                                </ul>
+                            </div>
+                        <!-- </div> -->
+                </div>
+                <div class="footer-blog">
+                    <div class="blog-header">
+                        <h2>from the <span>blog</span></h2>
+                    </div>
+                    <div class="blog-holder">
+                        <ul>
+                            <li class="in-blog"> <img src="images/blogimg.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/><span>26 May, 2013</span> </p>
+                            </li>
+                            <li class="in-blog">
+                                <img src="images/blogimg.png" alt=" ">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/><span>26 May, 2013</span> </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="footer-bottom-wrapper clearfix">
+                <div class="footer-container ">
+                    <div class="left ">
+                        <label>2013 Tollens</label>
+                    </div>
+                    <div class="right clearfix ">
+                        <ul class="link ">
+                            <li>
+                                <a href="# "><img src="images/fb.png " alt="social-media "></a>
+                            </li>
+                            <li>
+                                <a href="# "><img src="images/google+.png " alt="social-media "></a>
+                            </li>
+                            <li>
+                                <a href="# "><img src="images/twitter.png " alt="social-media "></a>
+                            </li>
+                            <li>
+                                <a href="# "><img src="images/wifi.png " alt="social-media "></a>
+                            </li>
+                        </ul>
+            </div>
+        </div>
 </body>
-<footer>
-<div class="footer-wrapper">
-      <div class ="footer-top"></div>
-      <div class ="footer-bottom"></div>
-      </div>
-   </footer>
+
 </html>

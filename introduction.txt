@@ -1,3 +1,71 @@
-Name: Simran Dhoju
-College: HCOE
-Hobby: Travelling
+<div class="best-solution">
+                        <div class="best-solution-container">
+                            <h1 class="solution-heading">Best Solution is the Simplest IDEA!</h1>
+                            <p>
+                                Capacitance cascading integer reflective interface data development high bus cache dithering transporder.
+                                <span>Curabitur vitae velit in neque dictum blandit.<br/> Proin in iaculis neque. Pellentesque habitant morbi tristique sencetus et netus et malesuda fames ac turpis egestas. </span>
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="happy-clients">
+                        <div class="happy-clients-container">
+                            <div class="client-header">
+                                <h3>Our Happy Clients</h3>
+                            </div>
+                            <div class="hr-line"> <img src="/images/line.png" alt="line"> </div>
+                            <div class="button">
+                                <div class="grey-btn"> </div>
+                                <div class="red-btn"> </div>
+                            </div>
+                            <div class="button">
+                                <div class="grey-btn"> </div>
+                                <div class="red-btn"> </div>
+                            </div>
+        
+                            <!-- <ul>
+                                <li>
+                                    <h3>Our Happy Clients</h3>
+                                </li>
+                                <li><img src="/images/line.png" alt="line"></li>
+                                <li>
+                                    <div class="button">
+                                        <div class="grey-btn"> </div>
+                                        <div class="red-btn"> </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="button">
+                                        <div class="grey-btn"> </div>
+                                        <div class="red-btn"> </div>
+                                    </div>
+                                </li>
+                            </ul> -->
+        
+        
+                            <div class="clients-list">
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="images/jquery.png"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/jquery.png"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/jquery.png"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/jquery.png"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/jquery.png"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/jquery.png"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                   </div>
+
+            </div>

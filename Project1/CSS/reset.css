@@ -1,4 +1,9 @@
 *{
     padding:0px;
     margin:0px;
+    color:#828e8e;
+}
+
+ul li {
+    list-style: none;
 }
