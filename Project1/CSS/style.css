@@ -1,7 +1,10 @@
 
+.whole-wrapper{
+    background-color: #76c7c1;
+}
 
 .header-top-wrapper {
-    background: url("/images/top-header.png");
+    background: url("../images/top-header.png");
     background-repeat: repeat-x;
 }
 
@@ -207,10 +210,7 @@
     display: block;
     position: absolute;
 }
-/* .happy-client-container a:hover {
-    background: url("../images/red-arrow-btn.png");
-    background-repeat: no-repeat;
-} */
+
 
 .footer-content-wrapper * {
     color: white;
