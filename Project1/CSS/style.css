@@ -20,7 +20,7 @@
 }
 
 .header-bottom-wrapper {
-    background: #ececec;
+    background-color: #ececec;
 }
 
 .left-navbar ul {
@@ -94,14 +94,14 @@
 }
 
 .back-box {
-    background-image: url("/images/back-image.png");
+    background-image: url("../images/back-image.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .front-box {
     position: absolute;
-    background-image: url("/images/green-image.png");
+    background-image: url("../images/green-image.png");
     background-repeat: no-repeat;
     background-size: contain;
     top: 0;
@@ -126,7 +126,7 @@
 
 .block .user-name-box {
     position: absolute;
-    background: url("/images/grey-button.png");
+    background: url("../images/grey-button.png");
     background-repeat: no-repeat;
     background-size: cover;
     left: 37px;
@@ -142,7 +142,7 @@
 }
 
 .block:hover .user-name-box {
-    background: url("/images/red-button.png");
+    background: url("../images/red-button.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -198,7 +198,6 @@
     
 
 }
-
 
 
 .red-btn {
