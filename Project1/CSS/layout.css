@@ -98,7 +98,7 @@
 
 .best-solution-container,
 .happy-clients-container,
-.footer-container {
+.footer-container , .footer-content-wrapper{
     width: 1174px;
     margin: 0 auto;
     padding: 0;
@@ -110,7 +110,7 @@
 
 .clients-list ul li {
     display: inline-block;
-    padding-right: 25px;
+    padding-right: 5px;
 }
 
 .clients-list ul li:last-child {

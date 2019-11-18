@@ -255,6 +255,7 @@
     width: 150px;
     float: left;
     margin-left: 40px;
+    padding-top:20px ;
 }
 
 
@@ -299,4 +300,8 @@
     display: inline-block;
     padding-left: 25px;
     list-style: none;
+}
+
+.left label{
+    color: white;
 }
