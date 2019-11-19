@@ -1,5 +1,5 @@
 .container {
-    max-width: 79.1%;
+    max-width: 78%;
     margin: 0 auto;
     padding: 0;
 }
@@ -7,7 +7,7 @@
 .logo-wrapper,
 .header-navbar {
     display: inline-block;
-    padding: 20px 0px;
+    padding: 1.25em 0em;
 }
 
 .header-navbar {
@@ -32,12 +32,11 @@
 .project-slideshow-container,
 .slideshow2-container,
 .read-more-container {
-    margin: 25px 0;
+    margin: 1.5625px 0em;
 }
 
 .project-slider {
     width: 100%;
-    height: auto;
     position: relative;
 }
 
@@ -55,17 +54,17 @@
     display: inline-block;
 }
 
-/* .block {
+ .block {
     position: relative;
     display: inline-block;
     width: 260px;
     margin-right: 29px;
-    /* max-width: 16.25em;
-    margin-right: 1.8125em; */
-}
+    max-width: 16.25em;
+    margin-right: 1.8125em; }
+
 
 .block:last-child {
-    margin-right: 0px;
+    margin-right: 0em;
 } */
 
 
@@ -73,25 +72,35 @@
 
 .footer-block {
     display: inline-block;
-    padding: 22px 0px;
+    padding: 1.375em 0pem;
 }
 
 .footer-blog {
     float: right;
-    padding: 22px 0;
+    padding: 1.375em 0;
+    padding-left: 1.375em 0em ;
 }
 
 .blog-holder {
     display: inline-block;
-    padding-top: 23px;
+    padding-top: 1.4375em;
+    margin: 0 auto;
+    
 }
 
 .left {
     float: left;
-    padding: 20px 0;
+    padding: 1.25em 0;
 }
 
 .right {
     float: right;
-    padding: 20px 0;
+    padding: 1.25em 0;
+}
+.footer-col-middle{
+    padding-top: 20px;
+}
+.footer-blog{
+    padding-left: 120px;
+    padding-top:20px
 }

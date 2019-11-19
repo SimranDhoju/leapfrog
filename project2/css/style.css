@@ -187,6 +187,7 @@
 
 .footer-block ul {
     padding-top: 25px;
+
 }
 
 .white-arrow {
@@ -199,7 +200,7 @@
 
 .in-blog p {
     float: right;
-    padding-left: 17px;
+    padding-left: 1.0625em;
     width: 300px;
 }
 
@@ -223,7 +224,7 @@
 
 .right ul li {
     display: inline-block;
-    padding-left: 25px;
+    padding-left: 1.5625em;
 }
 
 .left{
