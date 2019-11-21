@@ -79,12 +79,20 @@
     padding:20px;
     margin-left: 170px;
 }
-/* .itemdiv{
+ .itemdiv{
     height: 355px;
     width: 241px;
     background-color:white;
-   
-} */
+position: relative;
+
+} 
+.saleholder
+{
+    position: absolute;
+    top:-4px;
+    left: -4px;
+    z-index: 20;
+}
 /* .top-body-container {
     max-width: 1174px;
     margin: 0 auto;
@@ -122,5 +130,16 @@
 
 .right-container{
     width:580px;
+    float:right;
+}
+.gallery-image
+{
+    display: inline-block;
+}
+.inner-leftside{
+    display: inline-block;
+    
+}
+.inner-rightside{
     float:right;
 }
