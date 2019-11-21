@@ -91,7 +91,7 @@
     padding-top: 20px;
 } */
 
-.col3-left {
+/* .col3-left {
    width:350px;
    padding:5px;
    
@@ -103,7 +103,7 @@
 
 } */
 
-.right-container {
+/* .right-container {
     float: left;
     width:50%
 }
@@ -113,6 +113,14 @@
 .col3-inner-right {
     float: right;
     width: 25%;
+}  */
+
+.left-container{
+    width:365px;
+    float: left;
 }
 
-
+.right-container{
+    width:580px;
+    float:right;
+}
