@@ -1,104 +1,42 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <style>
-    table {
-        table-layout: fixed ;
-        
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ImageSlider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    }
-    th,td { 
-    padding: 20px; 
-    text-align: center; 
-    width:25%;
-    border: 1px solid black;
-    border-spacing: 5px;
-    } 
-   
-    
-    </style>
-    </head>
+</head>
 <body>
+    <div class="carousel-container">
 
-<table width=50%  >
-    
-   <tr>
-        <th>Title</th>
-        <th>Demo</th>
-        <th>Code</th>
+        <div class="carousel-image-wrapper" >
+          <img src="images/img1.jpg" >
+          <img src="images/img2.jpg" >
+          <img src="images/img3.jpg" >
+         
+          
+        </div>
         
-    </tr>
-    <tr>
-        <td>
-         Github Assignment: Hosted Assignments List page
-        </td>
-        <td> 
-        <a href="#"> GitDemo </a>
-        </td>
-        <td>
-        <a href="#">GitCode </a>
-        </td>
+
         
-    </tr>
-    <tr>
-        <td>
-         Design Assignment 1: 1A-home-search.jpg 
-        </td>
-        <td>
-        <a href="https://simrandhoju.github.io/leapfrog/Project1/">  Design Assignment1Demo </a>
-        </td>
-        <td>
-        <a href="https://github.com/SimranDhoju/leapfrog/tree/master/Project1">  Design Assignment1Code </a>
-        </td>
+        <a class="prev " onclick="plusSlides(-1)"><i class="fa fa-angle-left"></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class="fa fa-angle-right" ></i></a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          
+        </div>
+      </div>
+        
+   <script src="script.js"></script>
 
-    </tr>
-    <tr>
-        <td>
-        Design Assignment 2: 1A-settings.jpg 
-        </td>
-        <td>
-        <a href="https://simrandhoju.github.io/leapfrog/project2/"> Design Assignment2Demo </a>
-        </td>
-        <td>
-         <a href="https://github.com/SimranDhoju/leapfrog/tree/master/project2"> Design Assignment2Code </a>
-        </td>
-    </tr>
-
-    <tr>
-        <td>
-        Design Final Project:Static
-        </td>
-        <td>
-        <a href="https://simrandhoju.github.io/leapfrog/designfinalprojectstatic/"> Design Final ProjectDemo </a>
-        </td>
-        <td>
-        <a href="https://github.com/SimranDhoju/leapfrog/tree/master/designfinalprojectstatic"> Design Final ProjectCode </a>
-       </td>
-    </tr>
-
-    <tr>
-        <td>
-            Design Final Project:Responsive
-        </td>
-        <td>
-        <a href="https://simrandhoju.github.io/leapfrog/designfinalprojectdynamic/"> Desing Final ProjectresponsiveDemo </a>
-        </td>
-        <td>
-        <a href="https://github.com/SimranDhoju/leapfrog/tree/master/designfinalprojectdynamic"> Desing Final ProjectresponsiveCode </a>
-        </td>
-    </tr>
-
-    <tr>
-        <td>
-        JS Assignment 2: Image Slider with hold times
-        </td>
-        <td>
-        <a href="#"> Image Slider with hold timesDemo </a>
-        </td>
-        <td>
-        <a href="#"> Image Slider with hold timesCode </a>
-        </td>
-    </tr>
-</table>
 </body>
 </html>
