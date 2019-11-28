@@ -1,42 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ImageSlider</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <title>Assignments</title>
+    <style>
+        body {
+            margin: 30px;
+            font-family: sans-serif;
+            background: rgba(0, 0, 0, 0.15);
+        }
+        
+        .assignment {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 70%;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .assignment thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        .assignment th,
+        .assignment td {
+            padding: 12px 15px;
+        }
+        
+        .assignment tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+        
+        .assignment tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        
+        .assignment tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+        
+        .assignment tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="carousel-container">
+    <div>
+        <h1><i>Assignments</i></h1>
+        <p><strong>Supriya Amatya</strong> </p>
+        <p><strong>Group:F</strong></p>
+    </div>
+    <table class="assignment">
+        <thead>
+            <tr>
 
-        <div class="carousel-image-wrapper" >
-          <img src="images/img1.jpg" >
-          <img src="images/img2.jpg" >
-          <img src="images/img3.jpg" >
-         
-          
-        </div>
-        
+                <th>Title</th>
+                <th>Demo</th>
+                <th>Code</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Github Assignment: Hosted Assignments List page</td>
+                <td>
+                    <a href="# ">GitAssignment-DEMO</a>
+                </td>
+                <td>
+                    <a href="# ">GitAssignment-CODE</a>
+                </td>
+            </tr>
 
-        
-        <a class="prev " onclick="plusSlides(-1)"><i class="fa fa-angle-left"></i></a>
-        <a class="next" onclick="plusSlides(1)"><i class="fa fa-angle-right" ></i></a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-          
-        </div>
-      </div>
-        
-   <script src="script.js"></script>
+            <tr>
+                <td>Design Assignment 1: 1A-home-search.jpg</td>
+                <td>
+                    <a href="# ">DesignAssignment1-DEMO</a>
+                </td>
+                <td>
+                    <a href="# " target="_blank ">DesignAssignment1-CODE</a>
+                </td>
+            </tr>
 
+            <tr>
+                <td>Design Assignment 2: 1A-settings.jpg</td>
+                <td>
+                    <a href="#" target="_blank ">DesignAssignment2(RWD)-DEMO</a>
+                </td>
+                <td>
+                    <a href="# " target="_blank ">DesignAssignment2(RWD)-CODE</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Design Final Project: Static</td>
+                <td>
+                    <a href="#">DesignFinalProjectStatic-DEMO</a>
+                </td>
+                <td>
+                    <a href="#" target="_blank  ">DesignFinalProjectStatic-CODE</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Design Final Project: Responsive</td>
+                <td>
+                    <a href="#">DesignFinalProjectResponsive-DEMO</a>
+                </td>
+                <td>
+                    <a href="#" target="_blank  ">DesignFinalProjectResponsive-CODE</a>
+                </td>
+            </tr>
+            <tr>
+                <td>JS Assignment 1: Image Slider</td>
+                <td>
+                    <a href="" target="_blank">JS-Assignment1-ImageSlide-DEMO</a>
+                </td>
+                <td>
+                    <a href="" target="_blank">JS-Assignment1-ImageSlide-CODE</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>JS Assignment 2: Image Slider with hold times</td>
+                <td>
+                    <a href=" " target="_blank">JS-Assignment2-ImageSlideOOP-DEMO</a>
+                </td>
+                <td>
+                    <a href=" " target="_blank">JS-Assignment2-ImageSlideOOP-CODE</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>JS Assignment 3: Box Collision and Ant Smasher</td>
+                <td>
+                    <a href="# "></a>
+                </td>
+                <td>
+                    <a href="# "></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>JS Assignment 4: Car Lane Game with Bullet</td>
+                <td>
+                    <a href="# "></a>
+                </td>
+                <td>
+                    <a href="# "></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
