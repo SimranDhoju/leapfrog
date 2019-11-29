@@ -1,8 +1,8 @@
 function Box (parentElement){
     this.x= 10;
     this.y= 10;
-    this.width= 30;
-    this.height= 30;
+    this.width= 50;
+    this.height= 50;
     this.element= null;
     //this.speed = 1;
     this.dx= 10;
@@ -17,6 +17,7 @@ function Box (parentElement){
         box.style.height = this.height +'px';
         box.style.background = 'url(ant.png)';
         box.style.backgroundSize='contain';
+        box.style.backgroundRepeat = 'no-repeat';
         box.classList.add('box');
         this.parentElement.appendChild(box);
         this.element = box;
