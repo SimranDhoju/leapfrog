@@ -1,0 +1,14 @@
+#box-container{
+    width:400px;
+    height:400px;
+    background-color: #bbb;
+    position: relative;
+    left:500px;
+   
+}
+
+.box{
+    background-color: black;
+    position: absolute;
+    
+}

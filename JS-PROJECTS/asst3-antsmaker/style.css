@@ -1,0 +1,18 @@
+#box-container{
+    width:400px;
+    height:400px;
+    background-color: #bbb;
+    position: relative;
+    left:500px;
+   
+}
+
+.box{
+    background-color: #bbb;
+    position: absolute;
+    
+}
+
+h1{
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.carousel-container{
+    position: relative;
+    margin:auto;
+    overflow: hidden;
+}
+
+.image-container{
+    position:absolute;
+
+
+}
+
