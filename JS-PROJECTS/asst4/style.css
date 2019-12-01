@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.app-container {
+    margin: 30px auto;
+    position: relative;
+    width: 540px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.app-container .road {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: url('image/road.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+    position: absolute;
+}
+
+.game-over {
+    width: 100%;
+    height: 100%;
+    margin: auto ;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    color: #ffffff;
+    background: grey;
+    display: none;
+}
