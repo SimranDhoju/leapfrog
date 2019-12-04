@@ -133,6 +133,7 @@ function Game() {
     var bullet;
     var bulletArray = [];
     var gameOver;
+    var shoot= true;
 
     this.init = function() {
         gameContainer = document.getElementById('app-container');
@@ -193,6 +194,15 @@ function Game() {
                 bullet = new Bullet(myCar);
                 bulletArray.push(bullet);
                 bullet.createBullet(gameContainer);
+
+                if (shoot){
+                    bullet.createBullet(gameContainer);
+                    shoot=false;
+                    setTimeout(function(){
+                        shoot=true;
+                    },1000)
+                }
+                
             }
         });
 
