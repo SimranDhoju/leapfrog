@@ -1,0 +1,699 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Final Project : Responsive</title>
+    
+    <!-- [if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!--    Google Fonts | for IE8 compatibility-->
+    <!--[if lte IE 8]>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Source+Sans+Pro&display=swap"
+          rel="stylesheet">
+    <![endif] -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/image.css" type="text/css">
+    <link rel="stylesheet" href="css/media-query.css" type="text/css">
+    
+</head>
+<body class="wrapper">
+
+<header class="container">
+    <div class="header-top dotted-spacer-separator">
+        <div class="header-top-left">
+            <h2>PANDORA</h2>
+            <span>fantastic products & great prices</span>
+        </div>
+        <div class="header-top-right">
+            <div class="header-top-right-list">
+                <ul>
+                    <li>
+                        <a href="#" class="header-has-icon icon-cart" id="icon-cart">
+                            <span class="items-count">0</span> items (<span class="items-price">$0.00</span> in
+                            total)</a>
+                            
+                    </li>
+                    <li><a href="#">Checkout</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="header-has-icon icon-user">My account</a>
+                            <div class="dropdown-list">
+                                <ul>
+                                    <li><a href="#">my profile</a></li>
+                                    <li><a href="#">logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+</header>
+<nav class="container">
+    <div class="nav-mobile-container">
+        <div class="nav-hover"><img src="images/list.png" alt="nav hover"></div>
+        <div class="nav-block">
+            <div class="nav-left">
+                <div class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <div class="nav-dropdown">
+                                <a href="#" class="dropdown-head">Women</a>
+                                <div class="nav-dropdown-list">
+                                    <ul>
+                                        <li><a href="women.html">Clothes</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-dropdown">
+                                <a class ="active" href="men.html" class="dropdown-head">Men</a>
+                                <div class="nav-dropdown-list">
+                                    <ul>
+                                        <li><a class="active" href="#">Clothes</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact & info</a></li>
+                        <li><a href="#">Features</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="search-form">
+                    <figure>
+                        <img src="images/search-icon.png" alt="search">
+                    </figure>
+                    <input type="text" placeholder="search here">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</nav>
+
+
+   <nav class= "container">
+       <div class="nav-block">
+
+            <div class ="women-navbar">
+                <h1> SHOP BY CATEGORY</h1>
+
+                <ul>
+                    <li>
+                        <a href="#">TOPS</a>
+                    </li>
+                    <li><a href="#">BOTTOMS</a></li>
+                    <li><a href="#">SUITS</a></li>
+                    <li><a href="#">SWEATERS</a></li>
+                    <li><a href="#">JACKETS/COAT</a></li>
+                    <li><a href="#">ACTIVE WEAR</a></li>
+                    </ul>
+            </div>
+        </div>
+   </nav>
+
+
+
+<section>
+    <div class="container">
+        <div class="featured-section">
+            <div class="featured-head dotted-spacer-separator">
+                <h3>TOP PICKS</h3>
+                <div class="featured-view-more">
+                    <i class="fa fa-eye"></i><a href="#">view more items</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="featured-list">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="item-block"> 
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <!--                                    <span class="sale-tag"></span>-->
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/img-block2.png" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Elegant sweater with tie </h4>
+                                            <span>$59.99</span>
+                                        </div>
+                                            <span class="store-item-icon" id="store-item-icon">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </span>
+                                        
+                                        </div> 
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <!-- <span class="sale-tag"></span> -->
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image8.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Oversized black jacket</h4>
+                                            <span>$29.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image1.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Colorful strip t-shirt </h4>
+                                            <span>$9.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <!--                                    <span class="sale-tag"></span>-->
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image9.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Offwhite hoddie</h4>
+                                            <span>$19.99</span>
+                                            
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image7.png" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Basic white foulard </h4>
+                                            <span>$29.99</span>
+                
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <!-- <span class="sale-tag"></span> -->
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image4.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Black sleeve t-shirt</h4>
+                                            <span>$29.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <!--  <span class="sale-tag"></span>-->
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image5.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4> Formal blue shirt</h4>
+                                            <span>$10.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <!-- <span class="sale-tag"></span>-->
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image6.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Casual shirt</h4>
+                                            <span>$49.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="special-section">
+            <div class="special-head dotted-spacer-separator">
+                <h3>Special Offers</h3>
+                <div class="clearfix"></div>
+            </div>
+            <div class="special-list">
+                <ul>
+                    <li>
+                        <div class="special-block">
+                            <div class="special-content green-special">
+                                <a href="#">
+                                    <span class="special-title">sale</span>
+                                    <span class="special-detail">checkout all items on sale</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="special-block">
+                            <div class="special-content blue-special">
+                                <a href="#">
+                                    <span class="special-title">sale</span>
+                                    <span class="special-detail">checkout all items on sale</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="special-block">
+                            <div class="special-content orange-special">
+                                <a href="#">
+                                    <span class="special-title">sale</span>
+                                    <span class="special-detail">checkout all items on sale</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="featured-section">
+            <div class="featured-head dotted-spacer-separator">
+                <h3>Sale Item</h3>
+                <div class="featured-view-more">
+                    <i class="fa fa-eye"></i><a href="#">view more items</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="featured-list">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="item-block"> 
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                     <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image7.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Black bomper jacket </h4>
+                                            <span>$13.99</span>
+                                        </div>
+                                            <span class="store-item-icon" id="store-item-icon">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </span>
+                                        
+                                        </div> 
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image2.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Grey hoddie jacket</h4>
+                                            <span>$14.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image7.png" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Basic white foulard </h4>
+                                            <span>$29.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image12.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Diy Jacket</h4>
+                                            <span>$10.99</span>
+                                            
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image1.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4> </h4>
+                                            <span>$9.99</span>
+                
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                    <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image3.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Brown hoddie</h4>
+                                            <span>$11.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                    <!--  span sale tag -->
+                                     <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/image10.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Grey suit</h4>
+                                            <span>$30.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="item-block">
+                                <div class="item-shadow-box">
+                                     
+                                    <span class="sale-tag"></span>
+                                    <div class="item-content">
+                                        <figure>
+                                            <img src="images/Men/images11.jpg" alt="item image">
+                                        </figure>
+                                        <div class="item-price">
+                                            <h4>Street style jacket</h4>
+                                            <span>$15.99</span>
+                                        </div>
+                                        <span class="store-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="dark-bg-wrapper">
+    <div class="container">
+        <div class="footer-top">
+            <div class="col-footer-left">
+                <div class="navigation-section">
+                    <div class="navigation-title">Navigation</div>
+                    <div class="navigation-content">
+                        <ul>
+                            <li><a href="#">Homepage</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Featured Items</a></li>
+                            <li><a href="#">News blog</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Contact & info</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tweets-section">
+                    <div class="tweets-title">Latest tweets</div>
+                    <div class="tweets-content">
+                        <ul>
+                            <li><p><a href="#">@Lorem</a> ipsum dolor sit amet, consectetur adipisicing elit.
+                                Architecto, quibusdam repellendus sint.</p></li>
+                            <li><p><a href="#">@Lorem</a> ipsum dolor sit amet, consectetur adipisicing elit.
+                                Architecto, quibusdam repellendus sint.</p></li>
+                            <li><p><a href="#">@Lorem</a> ipsum dolor sit amet, consectetur adipisicing elit.
+                                Architecto, quibusdam repellendus sint.</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-footer-right">
+                <div class="newsletter-section">
+                    <div class="newsletter-title">Newsletter</div>
+                    <div class="newsletter-content">
+                        <div class="newsletter-text">
+                            To subscribe to our newsletter, type in your e-mail address below and press "Enter" .
+                            <br>
+                            <strong> We don"t send spam. Ever!</strong>
+                        </div>
+                        <div class="newsletter-input">
+                            <input type="text" placeholder="subscribe email">
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutus-section">
+                    <div class="aboutus-title">About us</div>
+                    <div class="aboutus-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam consequatur dignissimos
+                            hic
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li><a href="#">
+                                    <figure><img src="images/social-icon-d1.png" alt="yt"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/social-icon-d2.png" alt="fb"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/social-icon-d3.png" alt="twitter"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/social-icon-d4.png" alt="twitter"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/social-icon-d5.png" alt="twitter"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/social-icon-d6.png" alt="twitter"></figure>
+                                </a></li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="credit-card">
+                            <ul>
+                                <li><a href="#">
+                                    <figure><img src="images/card-icon-d1.png" alt="credit card"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/card-icon-d2.png" alt="credit card"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/card-icon-d3.png" alt="credit card"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/card-icon-d4.png" alt="credit card"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/card-icon-d5.png" alt="credit card"></figure>
+                                </a></li>
+                                <li><a href="#">
+                                    <figure><img src="images/card-icon-d6.png" alt="credit card"></figure>
+                                </a></li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-block">
+                <span class="copyright"> &copy; 2012 Theme "Pandora" by</span>
+                <a href="#">
+                    <figure>
+                        <img src="images/planetshine-icon.png" alt="planetshine">
+                    </figure>
+                </a>
+            </div>
+            <div class="footer-bottom-block">
+                <span class="software-by">Ecommerce software by</span>
+                <a href="#">
+                    <figure>
+                        <img src="images/shopify-icon.png" alt="shopify">
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/addcart.js "></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+.wrapper {
+    width: 100%;
+    background-image: url("../images/square-pattern-bg.png");
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+.navcontainer{
+    width: 100%;
+    margin: auto;
+}
+
+.header-top {
+    padding: 24px 0;
+}
+
+.header-top-left {
+    width: 100%;
+    float: left;
+}
+
+.header-top-right {
+    width: auto;
+    float: right;
+}
+
+.login-form-block {
+    display: none;
+    padding: 15px 0;
+    /*text-align: center*/
+}
+
+.login-form-block input {
+    margin-bottom: 2px;
+}
+
+.login-form-block label {
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 0 3px;
+    display: none;
+}
+
+.login-hover {
+    display: block;
+    margin-right: 20px;
+    padding: 10px;
+    background-image: url("../images/arrow-down.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.login-mobile-container:hover .login-form-block {
+    display: block;
+}
+
+.login-mobile-container:hover .login-hover {
+    color: #cc003e;
+    background-image: url("../images/arrow-up.png");
+}
+
+nav {
+    padding: 20px 0;
+}
+
+.nav-left {
+    float: left;
+    padding-left: 10px;
+}
+
+.nav-right {
+    float: right;
+}
+
+.slider-section {
+    position: relative;
+    margin: auto;
+    padding-bottom: 12px;
+}
+
+.slider-number-block {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.welcome-section {
+    width: 100%;
+    padding: 35px 0;
+}
+
+.welcome-image {
+    width: 100%;
+    padding: 0;
+    max-width: 450px;
+    margin: auto;
+}
+
+.welcome-image img {
+    display: block;
+    width: 100%;
+}
+
+.welcome-content {
+    float: none;
+    padding: 65px 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.featured-section, .special-section {
+    padding-bottom: 40px;
+}
+
+.featured-head, .special-head, .blog-head, .best-seller-head, .about-head {
+    padding-bottom: 18px;
+}
+
+.featured-head h3, .special-head h3, .blog-head h3, .best-seller-head h3, .about-head h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    float: left;
+    font-size: 1.5em;
+}
+
+.featured-view-more {
+    float: right;
+}
+
+.featured-list ul li {
+    float: left;
+    /*padding: 0 9.375px;*/
+    width: 100%;
+}
+
+.featured-list ul li > a, .best-seller-list ul li > a {
+    text-decoration: none;
+}
+
+.item-block, .special-block {
+    padding-top: 25px;
+}
+
+.special-list ul li {
+    float: left;
+    /*padding: 0 8px;*/
+    width: 100%;
+}
+
+.col-1-left {
+    float: left;
+    width: 100%;
+}
+
+.col-1-right {
+    float: right;
+    width: 100%;
+}
+
+.blog {
+    width: 100%;
+}
+
+.best-seller-block {
+    float: left;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.about-block {
+    float: right;
+    width: 100%;
+}
+
+.blog-list, .about-content {
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+.list-layers, .about-content {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+.best-seller-list ul li {
+    float: left;
+    /*padding-left: 19px;*/
+    padding-bottom: 19px;
+    width: 50%;
+}
+
+/*.best-seller-list ul li:first-child {*/
+/*padding-left: 0;*/
+/*}*/
+
+.col-footer-left {
+    float: left;
+    width: 95%;
+    padding-left: 0;
+}
+
+.col-footer-right {
+    float: left;
+    width: 95%;
+    padding-left: 0;
+}
+
+.navigation-section {
+    float: left;
+    width: 95%;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.aboutus-section {
+    float: left;
+    width: 95%;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.newsletter-section {
+    float: left;
+    width: 95%;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.tweets-section {
+    float: left;
+    width: 95%;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.women-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  .women-navbar li {
+    float: left;
+  }
+  
+  .women-navbar li a {
+    display: block;
+    /* color:#8a8a8a; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .item-content img{
+       width: 210px;
+       height: 260px;
+  }
+  
+

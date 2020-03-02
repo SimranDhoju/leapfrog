@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact info</title>
+    <link rel="stylesheet" href="css/reset.css" type="css/text">
+    <!-- <link rel="stylesheet" href="css/layout.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/Register.css" type="text/css">
+    <link rel="stylesheet" href="css/media-query.css" type="text/css">       
+    </head>
+    <body>
+        
+      <div class="register-container">
+
+        <h1>Create my account</h1>
+        <h3>Please fill in the information below: </h3>
+        <div class="row" >
+
+               <form id="registerForm" method="POST" name="registration" class="form-control" onsubmit="return validateForm();">
+                <input type="text" id="fname"  class="inputs" placeholder="First name" required><br>
+                <input type="text" id="lname" class="inputs" placeholder="Last name" required><br>
+                <input type="text" id="email"  class="inputs" placeholder="Email"   oninput="verifyEmail(this)" required><br>
+                <input type="password" id="password" class="inputs" placeholder="Password"  pattern=".{0}|.{6,}" required><br>
+                <input type="password" id="conpassword" class="inputs" placeholder="Confirm-password" oninput="verifyPassword(this)"  required><br>
+
+                
+                <button class="button" id="button" type="submit"  >Create my account</button><br><br>
+
+                Already have an Account? <a href="index.html">Login</a>
+                </form>
+            </div>
+      </div> 
+      <div class= "popup" id="popup">
+        <div class="popup-content">
+            <img src="images/check.png" alt="logo">
+            <h1>  Registration completed Sucessfully!</h1>
+            <h3>  Please login to continue. </h3>
+            <button class="ok" id="ok"  type="">OK</button>
+            <!-- <a href="index.html">Login</a> -->
+        </div>
+      </div> 
+      <script type="text/javascript" src="js/validate.js"></script>
+    </body>
+</html>
